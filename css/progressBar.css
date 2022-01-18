@@ -1,0 +1,54 @@
+:root {
+  --title-font: "Roboto Slab", serif !important;
+  --body-font: "Poppins", sans-serif !important;
+  --body-background: hsl(0, 0%, 95%) !important;
+}
+.container{
+width: 1140px;
+margin: 0 auto;
+}
+.progressbar{
+  width: 800px;
+  height: 30px;
+  margin: 0 auto;
+  background: pink;
+  margin-top: 75px;
+  border-radius: 5px;
+}
+.innerbar{
+  width: 80%;
+  height: 100%;
+  background: green;
+  border-radius: 5px;
+  position: relative;
+}
+.number{
+  position: absolute;
+  bottom: 5px;
+  right: -34px;
+  padding: 5px;
+  font-family: var(--body-font);
+}
+.icon{
+  font-size: 50px;
+  position: relative;
+  color: green
+}
+.icon2{
+  color: rgba(0, 128, 0, .6);
+}
+.icon3{
+  color: rgba(255, 0, 0, .6);
+}
+.icon4{
+  color: red;
+}
+.icon span{
+  position: absolute;
+  font-family: var(--body-font);
+  font-size: 18px;
+  right: 6px;
+  top: 12px;
+}
+
+
